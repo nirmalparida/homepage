@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/wallpaper.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#logo {
+    margin: 5px;
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+#menu {
+    float: right;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.active {
+    border: 1px solid white;
+}
+
+li a:hover {
+    border: 1px solid white;
+}
+
+#hero {
+    position: absolute;
+    width: 1300px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+h1 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 275px;
+}
+
+.button {
+    margin-left: 480px;
+    margin-top: 30px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid white;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+.btn-one {
+    background-color: orangered;
+}
+
+.btn-two:hover {
+    background-color: orangered;
+}
